@@ -12,14 +12,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var redLight: UIView!
     @IBOutlet weak var yellowLight: UIView!
     @IBOutlet weak var greenLight: UIView!
+    
     @IBOutlet weak var startButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        redLight.layer.cornerRadius = 65
-        yellowLight.layer.cornerRadius = 65
-        greenLight.layer.cornerRadius = 65
+        redLight.layer.cornerRadius = 60
+        yellowLight.layer.cornerRadius = 60
+        greenLight.layer.cornerRadius = 60
         
         redLight.alpha = 0.3
         yellowLight.alpha = 0.3
